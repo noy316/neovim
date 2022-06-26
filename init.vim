@@ -15,9 +15,11 @@ Plug 'tpope/vim-commentary'						" comment
 Plug 'preservim/nerdtree'						" nerdtree
 Plug 'tc50cal/vim-terminal'						" vim terminal
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	" auto complement
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
+" airline settings
 let g:airline_theme = 'deus'
 " let g:airline_theme = 'simple'
 " let g:airline_theme = 'bubblegum'
@@ -38,6 +40,13 @@ let g:airline#extensions#tabline#buffer_idx_format = {
 			\ '9': '9 ',
 			\}
 
+" indentLine settings
+let g:indentLine_color_term = 242
+let g:indentLine_char_list = '|'
+let g:indentLine_defaultGroup = 'Specialkey'
+
+" shortcuts
 nmap <C-p> <Plug>AirlineSelectPrevTab
 nmap <C-n> <Plug>AirlineSelectNextTab
+noremap <Space><CR> o<ESC>
 
