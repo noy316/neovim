@@ -8,17 +8,18 @@ install code
 #### test 
 
 ## Neo Vim Commands
+・コマンド ⇒ 説明
 
 ### 基本操作
-・カーソル移動 ⇒ h, j, k, l 
+・h, j, k, l  ⇒ カーソル移動
 
-・Normal Mode ⇒ ESC or CTRL+[ 
+・ESC or CTRL+[ ⇒ Normal Mode
 
-・Insert Mode ⇒ i or a 
+・i or a ⇒ Insert Mode
 
-・Command Mode ⇒ : 
+・: ⇒ Command Mode
 
-・Visual Mode ⇒ v
+・v ⇒ Visual Mode
 
 ### 便利操作
 ・^ ⇒ 行頭
