@@ -41,17 +41,17 @@ install code
 
 ・p ⇒ ペースト
 
-#### shortcuts
-##### nmap <C-p> <Plug>AirlineSelectPrevTab
+### shortcuts
+#### nmap <C-p> <Plug>AirlineSelectPrevTab
 CNTL+p ⇒ 前のタブへ移動
 
-##### nmap <C-n> <Plug>AirlineSelectNextTab
+#### nmap <C-n> <Plug>AirlineSelectNextTab
 CNTL+n ⇒ 次のタブへ移動
 
-##### noremap <Space><CR> o<ESC>
+#### noremap <Space><CR> o<ESC>
 ・space+ENTER(RETURN) ⇒ 下の行へ空行挿入
 
-#### Plugins
+### Plugins
 
 #### 'tpope/vim-commentary'
 gcc ⇒ コメントアウト
