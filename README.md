@@ -77,11 +77,11 @@ vim init.vim
 nvim
 ```
 ```
-(Command Mode)
+(Command Modeで実行)
 :PlugInstall
 ```
 ```
-(Command Mode)
+(Command Modeで実行)
 :CocInstall LanguageServerの名前
 例)
 :CocInstall coc-clangd
