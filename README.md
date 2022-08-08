@@ -24,6 +24,8 @@ brew install neovim
 nvim --version
 ```
 NVIM v0.6以上推奨
+
+
 ### nodebrewのインストール
 ```
 brew install nodebrew
@@ -49,6 +51,12 @@ nodebrew use v18.7.0
 ```
 
 ## Neovimの設定
+### Neovimプラグインのための設定(vim-plugのインストール)
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
 ### init.vimの作成
 ```
 mkdir ~/.config/nvim/
@@ -58,6 +66,28 @@ vim init.vim
 ```
 
 作成したinit.vimに(このページの)[init.vim](https://github.com/noy316/neovim/blob/master/init.vim)をコピペ
+
+### プラグインのインストール
+・nvimでNeovimを開く
+
+・コマンドモード(:を入力)でPlugInstallを入力
+
+・CocInstallが使えるようになるので好きな言語のLanguage Serverを選択しインストール⇒[全Language Server](https://github.com/neoclide/coc.nvim/wiki/Language-servers)
+```
+nvim
+```
+```
+(Command Mode)
+:PlugInstall
+```
+```
+(Command Mode)
+:CocInstall LanguageServerの名前
+例)
+:CocInstall coc-clangd
+:CocInstall coc-pyright
+:CocInstall coc-java
+```
 
 
 ## コマンド説明
