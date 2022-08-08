@@ -57,7 +57,7 @@ mkdir ~/.config/nvim/
 vim init.vim
 ```
 
-作成したinit.vimに(このページの)init.vim](https://github.com/noy316/neovim/blob/master/init.vim)をコピペ
+作成したinit.vimに(このページの)[init.vim](https://github.com/noy316/neovim/blob/master/init.vim)をコピペ
 
 
 ## コマンド説明
