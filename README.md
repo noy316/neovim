@@ -43,10 +43,10 @@ install code
 
 ### shortcuts
 #### nmap <C-p> <Plug>AirlineSelectPrevTab
-CNTL+p ⇒ 前のタブへ移動
+・CNTL+p ⇒ 前のタブへ移動
 
 #### nmap <C-n> <Plug>AirlineSelectNextTab
-CNTL+n ⇒ 次のタブへ移動
+・CNTL+n ⇒ 次のタブへ移動
 
 #### noremap <Space><CR> o<ESC>
 ・space+ENTER(RETURN) ⇒ 下の行へ空行挿入
@@ -54,10 +54,10 @@ CNTL+n ⇒ 次のタブへ移動
 ### Plugins
 
 #### 'tpope/vim-commentary'
-gcc ⇒ コメントアウト
+・gcc ⇒ コメントアウト
 
 #### 'preservim/nerdtree'
-NERDTree ⇒ ディレクトリ構造表示
+・NERDTree ⇒ ディレクトリ構造表示
 
 #### 'tc50cal/vim-terminal'
-Terminal bash ⇒ bash起動
+・Terminal bash ⇒ bash起動
